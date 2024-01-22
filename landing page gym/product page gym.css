@@ -1,0 +1,579 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: 0;
+  
+}
+
+.img {
+  height: 25px;
+  width: 140px;
+  margin: 10px;
+}
+
+.togglebutton {
+  position: absolute;
+  top: 1px;
+  right: 8px;
+  font-size: 22px;
+  display: none;
+}
+
+.navbarlinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 14px;
+  display: block;
+}
+
+.navbarlinks li:hover {
+  background-color: #555;
+}
+
+.button {
+  height: 25px;
+  width: 70px;
+  background-color: coral;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .togglebutton {
+      display: flex;
+      position: absolute;
+      padding: 10px;
+      font-size: 22px;
+  }
+
+  .navbarlinks {
+      display: none;
+      width: 100%;
+  }
+
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbarlinks ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbarlinks li {
+      text-align: center;
+  }
+
+  .navbarlinks.show {
+      display: flex;
+  }
+}
+
+
+
+.Productsec1 {
+    background-image: url("../landing page gym/images/Rectangle 54.png");
+    background-size: cover;
+    height: 65vh;
+    padding: 15px;
+    width: 100%;
+}
+
+.productsec1head {
+    color: black;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.producticonImg {
+    width: 180px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+
+.productSec1iconscont {
+    display: flex;
+    justify-content: center;
+}
+
+.productSec1icon {
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.productSec1button {
+    background-color: coral;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.Productsec2 {
+    background-image: url("../landing page gym/images/Rectangle 55.png");
+    background-size: cover;
+    height: 70vh;
+    padding: 15px;
+    width: 100%;
+}
+
+.productsec2head {
+    color: black;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.producticonImg {
+    width: 180px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+
+.productSec2iconscont {
+    display: flex;
+    justify-content: center;
+}
+
+.productSec2icon {
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.productSec2button {
+    background-color: coral;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Productsec3 {
+    background-image: url("../landing page gym/images/Rectangle 59.png");
+    background-size: cover;
+    height: 70vh;
+    padding: 15px;
+    width: 100%;
+}
+
+.productsec3head {
+    color: black;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.producticonImg {
+    width: 180px;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+
+.productSec3iconscont {
+    display: flex;
+    justify-content: center;
+}
+
+.productSec3icon {
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.productSec3button {
+    background-color: coral;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    width: auto;
+    height: 60vh;
+    flex-shrink: 0;
+    background: #524D4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 20px 0;
+}
+
+.priotrize-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-left: 30px;
+    margin-top: -50px
+}
+
+.priotrize-class img {
+    width: 248px;
+    height: 91px;
+    flex-shrink: 0;
+}
+
+.priotrize-class p {
+    color: #FFA500;
+    font-family: "sans-serif";
+    font-size: 28px;
+    font-weight: 600;
+    width: 404px;
+    text-align: center;
+}
+
+.footer-info,
+.company-info,
+.contact-info,
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.company-info h3,
+.contact-info h3,
+.more-info h3 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.company-info p,
+.contact-info p,
+.more-info p {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-info p {
+    color: #FFF;
+    font-family: "sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.popular-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tag-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popular-items h3 {
+    width: 195px;
+    height: 36.329px;
+    flex-shrink: 0;
+    color: #FFA500;
+    font-family: "sans-serif";
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.tag-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.abs {
+    width: 100px;
+    height: 47.801px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8D8383;
+}
+
+.workout {
+    width: 160px;
+    height: 47.801px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8D8383;
+}
+
+.trainers,
+.facilities {
+    width: 145px;
+    height: 47.801px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFA500;
+}
+
+.boxing {
+    width: 126px;
+    height: 47.801px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #8D8383;
+}
+
+.nutrition {
+    width: 160px;
+    height: 47.801px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFA500;
+}
+
+.tag-items div {
+    color: #FFF;
+    font-family: "sans-serif";
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+
+
+.sectionseven {
+    background-color: orange;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secsevenhead {
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.copyrighticon {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+.joinform {
+    display: none;
+    background-color: #f8daa2;
+    font-family: sans-serif;
+    text-align: left;
+    max-width: 400px;
+    padding: 15px;
+    position: fixed;
+    top: 8%;
+    left: 35%;
+}
+
+.formhead {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#name, #email, #number {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+#number {
+    margin-bottom: 5px;
+}
+
+form p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lab {
+    font-size: 17px;
+}
+
+
+.buttonnn {
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 0px;
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.crossmark {
+    position: fixed;
+    left: 60%;
+    top: 9%;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px) {
+    .joinform {
+        height: 80vh;
+    }
+
+    .formhead {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    form label {
+        font-size: 15px;
+    }
+
+    form p {
+        font-size: 15px;
+    }
+
+    .lab {
+        font-size: 12px;
+    }
+
+    .buttonnn {
+        font-size: 10px;
+        width: 80px;
+        height: 20px;
+    }
+}

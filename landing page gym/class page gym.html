@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="class page gym.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img class="img" src="./images/fitnesslogo1.png" />
+        <a href="#" class="togglebutton" onclick="togglefunction()">
+            <i class="icon fa-solid fa-bars"></i>
+        </a>
+        <div class="navbarlinks">
+            <ul>
+                <li><a href="./landing page gym.html">Home</a></li>
+                <li><a href="./class page gym.html">Classes</a></li>
+                <li><a href="./product page gym.html">Products</a></li>
+                <li><a href="./blog page gym.html">Blogs</a></li>
+                <li><a href="#"><button class="button" onclick="joinForm()">Join Us</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="classesSec1">
+        <h1 class="classesSec1head">Our Classes</h1>
+        <div class="classesSec1iconscont">
+            <div class="classesSec1icon">
+                <img src="./images/gym6 2.png" alt="image" class="classiconImg" />
+                <p class="classtiming">6:30AM - 7:30AM</p>
+                <button class="classSec1button">Power Excello</button>
+            </div>
+
+            <div class="classesSec1icon">
+                <img src="./images/gym7 1.png" alt="image" class="classiconImg" />
+                <p class="classtiming">6:30AM - 7:30AM</p>
+                <button class="classSec1button">Mixed-Level Excello</button>
+            </div>
+
+            <div class="classesSec1icon">
+                <img src="./images/gym8 1.png" alt="image" class="classiconImg" />
+                <p class="classtiming">6:30AM - 7:30AM</p>
+                <button class="classSec1button">Beginner Level</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="classesSec2">
+        <h1 class="classesSec2head">Our Training Partners</h1>
+        <div class="classesSec2iconscont">
+            <div class="classesSec2icon">
+                <img src="./images/Rectangle 25.png" alt="image" class="trainersiconImg" />
+                <span class="trainers1">John Smith</span>
+            </div>
+
+            <div class="classesSec2icon">
+                <img src="./images/Rectangle 26.png" alt="image" class="trainersiconImg" />
+                <span class="trainers1">Anaise Louis</span>
+            </div>
+
+            <div class="classesSec2icon">
+                <img src="./images/Rectangle 27.png" alt="image" class="trainersiconImg" />
+                <span class="trainers1">Phil Heath</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="./images/Rectangle 53.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="./images/bruce-mars-WGN6ZEFEZbs-unsplash 1.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="./images/couple-training-together-gym 1.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-items">
+            <div class="priotrize-class">
+            <img src="./images/fitnesslogo1.png" alt="logo" />
+            <p>
+                Prioritize Your Fitness Goals <br />
+                with our world class services
+            </p>
+            </div>
+    
+            <div class="footer-info">
+            <div class="info">
+                <div class="company-info">
+                <h3>Company</h3>
+                <p>About</p>
+                <p>Carrier</p>
+                <p>Blog</p>
+                </div>
+                <div class="contact-info">
+                <h3>Contact</h3>
+                <p>Help/FAQs</p>
+                <p>Press</p>
+                <p>Mobile</p>
+                </div>
+                <div class="more-info">
+                <h3>More</h3>
+                <p>Program</p>
+                <p>Plans</p>
+                <p>Method</p>
+                </div>
+            </div>
+            <p>Terms & Conditions</p>
+            </div>
+    
+            <div class="popular-items">
+            <h3>Popular Tags</h3>
+            <div class="tag-content">
+                <div class="tag-items">
+                <div class="abs">ABS</div>
+                <div class="workout">Workout</div>
+                </div>
+    
+                <div class="tag-items">
+                <div class="nutrition">Nutrition</div>
+                <div class="abs">ABS</div>
+                </div>
+    
+                <div class="tag-items">
+                <div class="boxing">Boxing</div>
+                <div class="trainers">Trainers</div>
+                </div>
+    
+                <div class="tag-items">
+                <div class="facilities">Facilities</div>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </footer>
+
+
+    <div class="sectionseven">
+        <h1 class="secsevenhead">Copyrights Reserved</h1>
+        <i class="fa-regular fa-copyright copyrighticon"></i>
+    </div>
+
+
+    <div id="join-form" class="joinform">
+        <div onclick="crossmark()" class="crossmark">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h1 class="formhead">Subscription Plan</h1>
+        <form onsubmit="submit">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+            <br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email" required>
+
+            <br>
+
+            <label for="number">Mobile Number:</label><br>
+            <input type="text" id="number" name="number" placeholder="Enter Your Number" required>
+
+            <p>Duration:</p>
+
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <input type="radio" id="duration1" value="Monthly" name="duration" required>
+                    <label class="lab" for="duration1">Monthly</label>
+                </div>
+                <div>
+                    <input type="radio" id="duration" value="Yearly" name="duration" required>
+                    <label class="lab" for="duration">Yearly</label>
+                </div>
+            </div>
+
+            <p>Mode of Payment:</p>
+
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <input type="radio" id="payment1" value="Cash" name="payment" required>
+                    <label class="lab" for="payment1">Cash</label>
+                </div>
+                <div>
+                <input type="radio" id="payment" value="Online" name="payment" required>
+                <label class="lab" for="payment">Online</label>
+                </div>
+            </div>
+
+            <p>Personal Training:</p>
+            
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <input type="radio" id="con1" value="Required" name="Training" required>
+                    <label class="lab" for="con1">Required</label>
+                </div>
+                <div>
+                    <input type="radio" id="con2" value="Not Required" name="Training" required>
+                    <label class="lab" for="con2">Not Required</label>
+                </div>
+            </div>
+
+            <br>
+
+            <input type="radio" id="con3" value="Monthly" name="terms" required>
+            <label class="lab" for="con3">I accept all terms and conditions
+            provided in this form.</label>
+            
+            <br>
+            
+            <div style="text-align: center; margin-top: 18px;">
+                <button onclick="buybutton()" class="buttonnn">Buy Plan</button>
+            </div>
+
+        </form>
+    </div>
+
+        
+
+</body>
+
+    <script src="class page gym.js"></script>
+    <script src="https://kit.fontawesome.com/9805c48520.js" crossorigin="anonymous"></script>
+</html>
